@@ -1,15 +1,15 @@
 {
   "name": "@alumis/transitionasync",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Asynchronous TypeScript transition of elements using window.requestAnimationFrame().",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alumis/transitionAsync.git"
+    "url": "git+https://github.com/alumis/transitionasync.git"
   },
   "author": "Emil Müller",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/alumis/transitionAsync/issues"
+    "url": "https://github.com/alumis/transitionasync/issues"
   },
   "devDependencies": {
     "typescript": "^3.3.4000",
