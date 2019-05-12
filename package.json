@@ -1,6 +1,6 @@
 {
   "name": "@alumis/transitionasync",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "Asynchronous TypeScript transition of elements using window.requestAnimationFrame().",
   "repository": {
     "type": "git",
@@ -12,10 +12,12 @@
     "url": "https://github.com/alumis/transitionasync/issues"
   },
   "devDependencies": {
-    "typescript": "^3.3.4000",
-    "@alumis/cancellationtoken": "^1.0.4"
+    "@alumis/cancellationtoken": "^1.0.4",
+    "@alumis/utils": "^1.0.6",
+    "typescript": "^3.4.5"
   },
   "peerDependencies": {
-    "@alumis/cancellationtoken": "^1.0.4"
+    "@alumis/cancellationtoken": "^1.0.4",
+    "@alumis/utils": "^1.0.6"
   }
 }
