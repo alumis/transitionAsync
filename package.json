@@ -1,6 +1,6 @@
 {
   "name": "@alumis/transitionasync",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Asynchronous TypeScript transition of elements using window.requestAnimationFrame().",
   "repository": {
     "type": "git",
