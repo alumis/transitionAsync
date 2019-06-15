@@ -1,7 +1,8 @@
 import { IDOMAnimator } from "./IDOMAnimator";
 import { elementIsVisible } from "@alumis/utils/src/elementIsVisible";
 //import { getScrollParent } from "@alumis/utils/src/getScrollParent";
-import { CancellationToken, OperationCancelledError } from "@alumis/cancellationtoken";
+import { CancellationToken } from "@alumis/utils/src/CancellationToken";
+import { OperationCancelledError } from "@alumis/utils/src/OperationCancelledError";
 import { transitionAsync, easeIn, easeOut } from "./transitionAsync";
 
 export class BlockAnimator implements IDOMAnimator {

@@ -1,4 +1,5 @@
-import { CancellationToken, OperationCancelledError } from "@alumis/cancellationtoken";
+import { CancellationToken } from "@alumis/utils/src/CancellationToken";
+import { OperationCancelledError } from "@alumis/utils/src/OperationCancelledError";
 
 export function transitionAsync(durationInMilliseconds: number, easeCallback: (t: number) => any, cancellationToken?: CancellationToken) {
 

@@ -1,4 +1,4 @@
-import { CancellationToken } from "@alumis/cancellationtoken";
+import { CancellationToken } from "@alumis/utils/src/CancellationToken";
 
 export interface IDOMAnimator {
 

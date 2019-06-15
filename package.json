@@ -12,12 +12,10 @@
     "url": "https://github.com/alumis/transitionasync/issues"
   },
   "devDependencies": {
-    "@alumis/cancellationtoken": "^1.0.4",
-    "@alumis/utils": "^1.0.6",
+    "@alumis/utils": "^1.0.15",
     "typescript": "^3.4.5"
   },
   "peerDependencies": {
-    "@alumis/cancellationtoken": "^1.0.4",
     "@alumis/utils": "^1.0.6"
   }
 }
